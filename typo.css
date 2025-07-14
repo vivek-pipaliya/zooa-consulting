@@ -1,0 +1,155 @@
+/* TypoGraphy */
+
+/* Font Size */
+.fn18 {
+    font-size: 18px;
+}
+
+.fn20 {
+    font-size: 20px;
+}
+
+.fn28{
+    font-size: 28px;
+}
+
+.fn54 {
+    font-size: 54px;
+}
+
+.fn16 {
+    font-size: 16px;
+}
+
+.fn14 {
+    font-size: 14px;
+}
+
+.fn15 {
+    font-size: 15px;
+}
+
+.fn38 {
+    font-size: 38px;
+}
+
+.fn34{
+    font-size: 34px;
+}
+
+.fn22 {
+    font-size: 22px;
+}
+
+.fn24 {
+    font-size: 24px;
+}
+
+.fn50 {
+    font-size: 50px;
+}
+
+/* Background Color */
+.bg_gray {
+    background-color: var(--gray);
+}
+
+/* container */
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+/* Header Button */
+.button_fill {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    border-radius: 10px;
+    background-color: var(--primary);
+    color: var(--white);
+    border: 1px solid var(--primary);
+    font-size: 14px;
+    font-weight: 700;
+    transition: all 0.5s;
+    padding: 15px 38px;
+    width: 100%;
+    min-width: 213px;
+}
+
+.button_fill:hover {
+    background-color: var(--white);
+    color: var(--primary);
+}
+
+.button_fill .fill>path {
+    stroke: var(--primary);
+}
+
+.button_fill .fill {
+    width: 0;
+    transform: translateX(-25px);
+    transition: all 0.5s;
+}
+
+.button_fill:hover .fill {
+    width: 16px;
+    transform: translateX(0);
+}
+
+/* Start button */
+.button_start {
+    padding: 14px 21px;
+    border-radius: 10px;
+    border: 1px solid var(--primary);
+    color: var(--white);
+    background-color: var(--primary);
+    font-weight: 400;
+    transition: all 0.5s;
+}
+
+.button_start:hover {
+    background-color: var(--white);
+    color: var(--primary);
+}
+
+.button_project {
+    padding: 15px 30px;
+    border-radius: 10px;
+    border: 1px solid var(--white);
+    color: var(--white);
+    background-color: var(--primary);
+    transition: all 0.5s;
+    margin-top: 100px;
+    cursor: pointer;
+}
+
+.button_project:hover {
+    background-color: var(--white);
+    color: var(--primary);
+}
+
+/* Pagnination */
+.pagnination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 47px;
+}
+
+.dot {
+    width: 8px;
+    height: 8px;
+    background-color: var(--shade_gray);
+    border-radius: 50%;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.dot:hover {
+    height: 12px;
+    width: 12px;
+    background-color: var(--primary);
+}
